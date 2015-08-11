@@ -1,0 +1,76 @@
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#777777"
+        android:orientation="vertical">
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact Us"
+                android:textColor="#FFCC00"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"/>
+            <EditText android:id="@+id/Name"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="Enter Name"
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="30dp"/>
+            <EditText android:id="@+id/EmailID"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="Enter Email Address"
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"/>
+            <EditText android:id="@+id/MobileNumber"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="Enter Mobile Number"
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"/>
+            <Spinner android:id="@id/action_bar_spinner"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="Country"
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"/>
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:hint="Enter Message"
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"/>
+            <Button android:id="@+id/submit"
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:text="submit"
+                android:textColor="#000"
+                android:layout_weight="0.13" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView><!-- From: file:/C:/Users/Vivek/AndroidStudioProjects/MyApplication/app/src/main/res/layout/menu9_layout.xml -->
